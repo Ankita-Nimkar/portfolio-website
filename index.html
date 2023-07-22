@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/letter-a.png"
+    />
+    <title>Ankita Nimkar</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="layout">
+      <div class="sidebar">
+        <img class="profile-pic" src="images/profile pic.png" alt="" />
+        <h1>Ankita Nimkar</h1>
+        <p>
+          <span>a mother</span> <span>a wife</span>
+
+          <span
+            ><span class="sm-span">want to be a</span> frontend web
+            developer</span
+          >
+        </p>
+
+        <div class="icons">
+          <a href="https://www.linkedin.com/in/ankita-nimkar-200270247/"
+            ><i class="fa-brands fa-linkedin fa-3x"></i
+          ></a>
+          <a href="https://github.com/Ankita-Nimkar">
+            <i class="fa-brands fa-github fa-3x"></i
+          ></a>
+        </div>
+
+        <div class="footer">
+          <p>
+            Designed and built by <span class="purple"> Ankita Nimkar</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <header>
+          <div class="mobile-nav">
+            <img
+              class="letterIcon"
+              src="images/letter-a.png"
+              alt=""
+              srcset=""
+            />
+
+            <div class="hamburger-menu">
+              <div class="up-line line"></div>
+              <div class="mid-line line"></div>
+              <div class="bot-line line"></div>
+            </div>
+
+            <div class="mobile-navbar overlay hidden">
+              <ul>
+                <li><a href="" id="home">Home</a></li>
+                <li class="about"><a href="">About</a></li>
+                <li class="projects"><a href="">Projects</a></li>
+                <li class="skill">
+                  <a href="">Skills</a>
+                </li>
+                <li class="contactNav">
+                  <a href="">Contacts</a>
+                </li>
+
+                <li>
+                  <a href="">Resume</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <ul class="navbar">
+            <li><a href="">Home</a></li>
+            <li class="aboutDesk"><a href="">About</a></li>
+            <li class="projectsDesk"><a href="">Projects</a></li>
+            <li class="skillDesk">
+              <a href="">Skills</a>
+            </li>
+            <li class="contactDesk">
+              <a href="">Contacts</a>
+            </li>
+
+            <li>
+              <a href="">Resume</a>
+            </li>
+          </ul>
+        </header>
+
+        <div class="main-body">
+          <section class="intro">
+            <h1>My Name is <span class="pink">Ankita</span></h1>
+            <img class="main-body-pic" src="images/profile pic.png" alt="" />
+            <p>
+              I want to be a Front-end Developer.You are on my internet home.If
+              you want to learn more about me, just keep on scrolling...
+            </p>
+          </section>
+
+          <section class="about-me">
+            <h1>About Me</h1>
+            <p>
+              I was born and educated in India. Before entering the world of web
+              developement, I worked as teacher in private institutes. After
+              having baby I wanted to restart my career. so, I decided to learn
+              new technical skills. Being a homemaker, I have some spare time
+              when my baby is playing herself or sleeping. I am using my spare
+              time to learn and to bring aesthetic, responsive and accessible
+              websites to my community. Excited to pursue new environment to
+              grow my skills while serving.
+            </p>
+          </section>
+
+          <section class="projects">
+            <h1>Projects</h1>
+            <div class="slider">
+              <i
+                class="fa-solid fa-arrow-left slider-btn-left"
+                onclick="plusSlides(-1)"
+              ></i>
+              <i
+                class="fa-solid fa-arrow-right slider-btn-right"
+                onclick="plusSlides(1)"
+              ></i>
+
+              <div class="app-dash mySlides">
+                <h2 class="app-dash-name">Movie Watchlist App</h2>
+
+                <img
+                  class="app-dash-img"
+                  src="images/movie-watchlist.png"
+                  alt=""
+                />
+                <div class="app-dash-para">
+                  <p class="app-dash-discription">
+                    The app keep track of hte movies, the user want to watch. It
+                    uses a real API to search for a movie as we type.Add movies
+                    to and remove them from movie list. It saves movie list to
+                    localstorage to appear when app refreshes.
+                  </p>
+                </div>
+                <h4 class="app-dash-h4">
+                  <a href="https://cheerful-baklava-c14db5.netlify.app">
+                    website</a
+                  >
+                </h4>
+              </div>
+
+              <div class="app-dash mySlides">
+                <h2 class="app-dash-name">Rock Paper Scissor</h2>
+
+                <img
+                  class="app-dash-img"
+                  src="images/rock-paper-scissor.png"
+                  alt=""
+                />
+                <div class="app-dash-para">
+                  <p class="app-dash-discription">
+                    It is a Front-end mentor challenge. It is responsive smooth
+                    web app game.
+                  </p>
+                </div>
+                <h4 class="app-dash-h4">
+                  <a href="https://ornate-kitten-a72320.netlify.app">
+                    website</a
+                  >
+                </h4>
+              </div>
+
+              <div class="app-dash mySlides">
+                <h2 class="app-dash-name">TweeClo</h2>
+
+                <img
+                  class="app-dash-img"
+                  src="images/twitter-clone.png"
+                  alt=""
+                />
+                <div class="app-dash-para">
+                  <p class="app-dash-discription">
+                    It is ia tweeter clone. I have added some tweeter
+                    functionalities like like, share ,retweet, add tweets and
+                    replies.
+                  </p>
+                </div>
+                <h4 class="app-dash-h4">
+                  <a href="https://comforting-douhua-65c622.netlify.app">
+                    website</a
+                  >
+                </h4>
+              </div>
+
+              <div class="app-dash mySlides">
+                <h2 class="app-dash-name">Pizza Ordering App</h2>
+
+                <img
+                  class="app-dash-img"
+                  src="images/rest-order-app.png"
+                  alt=""
+                />
+                <div class="app-dash-para">
+                  <p class="app-dash-discription">
+                    It is a pizza ordering app. Selected items from menu are
+                    added to to list.form to authenticate the billing process. A
+                    modal will appear to take use ratings.
+                  </p>
+                </div>
+                <h4 class="app-dash-h4">
+                  <a href="https://timely-fenglisu-3c8a41.netlify.app">
+                    website</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </section>
+
+          <section class="other-projects">
+            <h1>My Other Projects</h1>
+            <h2>API/ JavaScript Projects</h2>
+            <div class="grid">
+              <div class="grid-item">
+                <h4>calculator</h4>
+                <a href="https://silly-kangaroo-1015b8.netlify.app">View</a>
+              </div>
+              <div class="grid-item">
+                <h4>MapOuts</h4>
+                <a href="">View</a>
+              </div>
+              <div class="grid-item">
+                <h4 class="dashboardExt">Dashboard google extension</h4>
+                <a href="">View</a>
+              </div>
+              <div class="grid-item">
+                <h4>Colorscheme Generator</h4>
+                <a href="">View</a>
+              </div>
+              <div class="grid-item">
+                <h4>Blog Posts</h4>
+                <a href="">View</a>
+              </div>
+              <div class="grid-item">
+                <h4>War</h4>
+                <a href="">View</a>
+              </div>
+              <div class="grid-item">
+                <h4>Coockie Consent</h4>
+                <a href="">View</a>
+              </div>
+              <div class="grid-item">
+                <h4>meme Picker</h4>
+                <a href="">View</a>
+              </div>
+              <div class="grid-item">
+                <h4>BasketBall ScoreBoard</h4>
+                <a href="https://cool-liger-80a811.netlify.app">View</a>
+              </div>
+              <div class="grid-item">
+                <h4>Password Generator</h4>
+                <a href="https://lucent-starburst-199337.netlify.app">View</a>
+              </div>
+              <div class="grid-item">
+                <h4>Google Extension Lead Tracker</h4>
+                <a href="">View</a>
+              </div>
+            </div>
+          </section>
+
+          <section class="skills">
+            <h1>Technical Skills</h1>
+            <p>
+              Here are a few technologies I have worked with recently. Please
+              checkout my
+              <span>
+                <a href="https://www.linkedin.com/in/ankita-nimkar-200270247/"
+                  >LinkedIn</a
+                >
+              </span>
+              profile for more details
+            </p>
+            <ul class="skillsUl">
+              <li>HTML5</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+            </ul>
+          </section>
+
+          <section class="contact">
+            <h2>Get In Touch</h2>
+            <p>
+              If you want to say hello or would like to know about my
+              experience, please drop me an email. I will get back to you as
+              soon as possible.
+            </p>
+            <a href="mailto:ankita.dandwate.nimkar@gmail.com">Email Me</a>
+          </section>
+        </div>
+
+        <footer>
+          <p>Designed and built by <span class="purple">Ankita Nimkar</span></p>
+        </footer>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/2b62f734a4.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
